@@ -6,23 +6,12 @@ Collection of Dockerfiles.
 Image layers
 ======
 
-    |-- ubuntu:precise
-	    |-- komljen/ubuntu
-	        |-- komljen/redis
-	        |-- komljen/apache
-	        |   |-- komljen/php-apache
-	        |       |-- komljen/wordpress
-	        |-- komljen/nodejs
-	        |   |-- komljen/ghost
-	        |   |-- komljen/hipache
-	        |-- komljen/postgres
-	        |-- komljen/mysql
-	        |-- komljen/mongo
-	        |-- komljen/jdk6-oracle
-	        |   |-- komljen/tomcat
-	        |   |-- komljen/jenkins
-	        |   |-- komljen/maven3
-	        |       |-- komljen/jmeter-2.9-abh
+    |-- phusion/baseimage
+        |-- martinmicunda/mongo
+        |-- martinmicunda/jdk7-oracle
+        |   |-- martinmicunda/jenkins
+        |   |-- martinmicunda/teamcity-server
+        |   |-- martinmicunda/teamcity-agent
 
 Installation & Configuration
 ======
