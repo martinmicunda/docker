@@ -1,7 +1,7 @@
 Docker
 ======
 
-Collection of dockerfiles.
+Collection of Dockerfiles.
 
 Image layers
 ======
