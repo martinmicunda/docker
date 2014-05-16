@@ -13,10 +13,12 @@ Image layers
         |   |-- martinmicunda/teamcity-server
         |   |-- martinmicunda/teamcity-agent
 
+> **Note:** The reason why to use [phusion/baseimage](https://github.com/phusion/baseimage-docker) as docker baseimage is explained in this [blog](http://phusion.github.io/baseimage-docker/).
+
 Installation & Configuration
 ======
 
-Docker 0.9 and above.
+Docker 0.11 and above.
 
 Follow this [blog post](http://www.siliconfidential.com/articles/docker-coreos-osx/) to install Docker and Vagrant on Mac OSX.
 
